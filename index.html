@@ -5,20 +5,154 @@
 
     <meta charset="utf-8">
     <meta name="description" content="Application qui résout les sudokus">
+    <meta name="keyword" content="Sudoku, solver, résolution, problème, solution, nombre,">
+    <meta name="author" content="Sismitrii">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/540b9977d6.js" crossorigin="anonymous"></script>
   </head>
-
+  
   <body>
     <header>
-      
+      <div class="header_container">
+        <div class="logo">
+          <object data="/assets/sudoku_logo.svg" type="image/svg+xml"></object>
+          <!-- <img src="./assets/sudoku_logo.png" srcset="./assets/sudoku_logo.svg"/> -->
+          <!-- <img srcset="xxxxx.jpg 480w ,yyyyy.jpg 800w" sizes="(max-width: 600px) 480px, 800px" src="yyyyy.jpg" alt="..."/>  -->
+          <h1>Sudoku Solver</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#"><p class="animation-underline">Accueil</p></a></li>
+            <li><a href="#"><p class="animation-underline">Comment ça marche</p></a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <main class="limitedWidthBlockContainer">
-      
+    <main>
+      <section id="description">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce sollicitudin nulla nec dolor semper, quis iaculis mauris elementum. Nunc sed tristique ligula. In id felis pulvinar, pellentesque erat quis, laoreet turpis. Nunc at ullamcorper mauris, ac sollicitudin risus. Etiam auctor hendrerit magna, quis accumsan massa efficitur vitae.</p>
+      </section>
+      <section id="sudoku_container">
+        <table class="sudoku-table">
+          <tr class="row r1"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+           </tr>
+          <tr class="row r2"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+          </tr>
+          <tr class="row r3"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+          </tr>
+          <tr class="row r4"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+          </tr>
+          <tr class="row r5"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+           </tr>
+          <tr class="row r6"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+          </tr>
+          <tr class="row r7"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+          </tr>
+          <tr class="row r8"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+          </tr>
+          <tr class="row r9"> 
+            <td class="col c1"><input type="number" maxlength="1"></td>
+            <td class="col c2"><input type="number" maxlength="1"></td>
+            <td class="col c3"><input type="number" maxlength="1"></td>
+            <td class="col c4"><input type="number" maxlength="1"></td>
+            <td class="col c5"><input type="number" maxlength="1"></td>
+            <td class="col c6"><input type="number" maxlength="1"></td>
+            <td class="col c7"><input type="number" maxlength="1"></td>
+            <td class="col c8"><input type="number" maxlength="1"></td>
+            <td class="col c9"><input type="number" maxlength="1"></td>
+          </tr>
+        </table>
+        <form>
+          <!--<button>Scan</button>-->
+          <button type="button">Solve</button>
+          <button type="button">Clear</button>
+        </form>
+        <p class="information-msg"></p>
+      </section>
     </main>
-    
+
     <footer>
-      
+      <p>© 2022 Made with ❤️ by sismtrii</p>
+      <ul>
+        <li><a href="https://www.florian-guerin.com/"><i class="fa-solid fa-globe"></i></a></li>
+        <li><a href="https://github.com/sismitrii"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/florianguerin/"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
     </footer>
   <!-- <script type="module" src="../js/index.js"></script> -->
   </body>
